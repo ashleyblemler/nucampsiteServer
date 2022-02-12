@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 const passportLocalMongoose = require("passport-local-mongoose");
+const cors = require("./cors");
+
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
